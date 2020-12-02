@@ -1,0 +1,44 @@
+.bg-yellow {
+  background-color: #ff9f29;
+}
+
+.bg-blue {
+  background-color: #202c45;
+}
+
+.color-primary {
+  color: #202c45 !important;
+}
+
+.color-secondary {
+  color: #ff9f29 !important;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-white .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.active .nav-link {
+  background-color: #ffffff;
+  border-radius: 100px;
+}
+
+.active .nav-link {
+  color: #202c45 !important;
+}
+
+@media (max-width: 767.98px) {
+  .large-device {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .small-device {
+    display: none;
+  }
+}
